@@ -6,7 +6,7 @@
 # coding=utf-8
 """测试except的执行顺序
 
-从前往后检查，一旦匹配就不再往下查找，而是执行finally, 再向调用栈的上层抛出。
+从前往后检查，一旦匹配就不再往下查找，即使下面的异常类型同样也匹配，而是执行finally, 再向调用栈的上层抛出。
 """
 
 
@@ -16,6 +16,8 @@ def func_raise():
 
 try:
     func_raise()
+except BaseException as e:
+    print("Base Exception happens.")
 except BaseException as e:
     print("Base Exception happens.")
 except StopIteration as e:
