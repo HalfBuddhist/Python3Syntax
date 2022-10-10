@@ -1,0 +1,1004 @@
+err|fields.role|filename|lineno|@timestamp
+'Series' object has no attribute 'reshape'|nan|base_worker.py|79|2019-08-01T11:04:26.121Z
+'Series' object has no attribute 'reshape'|nan|train_helper.py|423|2019-08-02T02:26:38.408Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:26:36.696Z
+train_job_not_exist|nan|model_manager_main.py|414|2019-11-29T02:53:54.210Z
+model_info_not_exist|nan|model_manager_main.py|235|2020-01-02T08:05:52.590Z
+Variable rnn/multi_rnn_cell/cell_0/basic_lstm_cell/weights already exists, disallowed. Did you mean to set reuse=True in VarScope? Originally defined at:    File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/contrib/rnn/python/ops/core_rnn_cell_impl.py", line 1044, in _linear     _WEIGHTS_VARIABLE_NAME, [total_arg_size, output_size], dtype=dtype)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/contrib/rnn/python/ops/core_rnn_cell_impl.py", line 241, in __call__     concat = _linear([inputs, h], 4 * self._num_units, True)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/contrib/rnn/python/ops/core_rnn_cell_impl.py", line 713, in __call__     output, new_state = self._cell(inputs, state, scope) |nan|predict_helper.py|75|2019-10-17T06:45:22.129Z
+(422) Reason: Unprocessable Entity HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json', 'Date': 'Fri, 11 Oct 2019 07:42:50 GMT', 'Transfer-Encoding': 'chunked'}) HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"Deployment.apps \"serving-e3e3306e-18ca-4f4f-8183-70e1abc06e46-kmqtwwdtnnoivvfqbguw9f\" is invalid: [metadata.labels: Invalid value: \"serving-e3e3306e-18ca-4f4f-8183-70e1abc06e46-kmqtwwdtnnoivvfqbguw9f\": must be no more than 63 characters, spec.selector.matchLabels: Invalid value: \"serving-e3e3306e-18ca-4f4f-8183-70e1abc06e46-kmqtwwdtnnoivvfqbguw9f\": must be no more than 63 characters, spec.selector: Invalid value: v1.LabelSelector{MatchLabels:map[string]string{\"type\":\"serving\", \"app\":\"serving-e3e3306e-18ca-4f4f-8183-70e1abc06e46-kmqtwwdtnnoivvfqbguw9f\", \"id\":\"serving-e3e3306e-18ca-4f4f-8183-70e1abc06e46-kmqtwwdtnnoivvfqbguw9f\"}, MatchExpressions:[]v1.LabelSelectorRequirement(nil)}: invalid label selector]","reason":"Invalid","details":{"name":"serving-e3e3306e-18ca-4f4f-8183-70e1abc06e46-kmqtwwdtnnoivvfqbguw9f","group":"apps","kind":"Deployment","causes":[{"reason":"FieldValueInvalid","message":"Invalid value: \"serving-e3e3306e-18ca-4f4f-8183-70e1abc06e46-kmqtwwdtnnoivvfqbguw9f\": must be no more than 63 characters","field":"metadata.labels"},{"reason":"FieldValueInvalid","message":"Invalid value: \"serving-e3e3306e-18ca-4f4f-8183-70e1abc06e46-kmqtwwdtnnoivvfqbguw9f\": must be no more than 63 characters","field":"metadata.labels"},{"reason":"FieldValueInvalid","message":"Invalid value: \"serving-e3e3306e-18ca-4f4f-8183-70e1abc06e46-kmqtwwdtnnoivvfqbguw9f\": must be no more than 63 characters","field":"spec.selector.matchLabels"},{"reason":"FieldValueInvalid","message":"Invalid value: \"serving-e3e3306e-18ca-4f4f-8183-70e1abc06e46-kmqtwwdtnnoivvfqbguw9f\": must be no more than 63 characters","field":"spec.selector.matchLabels"},{"reason":"FieldValueInvalid","message":"Invalid value: v1.LabelSelector{MatchLabels:map[string]string{\"type\":\"serving\", \"app\":\"serving-e3e3306e-18ca-4f4f-8183-70e1abc06e46-kmqtwwdtnnoivvfqbguw9f\", \"id\":\"serving-e3e3306e-18ca-4f4f-8183-70e1abc06e46-kmqtwwdtnnoivvfqbguw9f\"}, MatchExpressions:[]v1.LabelSelectorRequirement(nil)}: invalid label selector","field":"spec.selector"}]},"code":422}  |nan|serving_worker.py|141|2019-10-11T07:42:50.101Z
+model_info_not_exist|nan|base_worker.py|80|2019-10-16T07:55:52.477Z
+'NoneType' object has no attribute 'decode'|nan|base_worker.py|80|2019-10-31T09:42:10.719Z
+model_info_not_exist|nan|base_worker.py|80|2020-01-02T08:05:52.639Z
+Dimension must be 2 but is 3 for 'rnn_layer01/transpose' (op: 'Transpose') with input shapes: [?,0], [3].|nan|train_helper.py|163|2019-10-14T09:15:44.925Z
+b'[11:37:48] src/objective/regression_obj.cc:90: Check failed: (preds.size()) == (info.labels.size()) labels are not correctly providedpreds.size=0, label.size=79'|nan|base_worker.py|80|2019-10-18T03:37:49.724Z
+'time'|nan|train_helper.py|163|2019-10-24T09:31:02.113Z
+Error tokenizing data. C error: out of memory|nan|train_helper.py|491|2020-01-02T11:39:48.375Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:36:58.576Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:27:46.693Z
+Variable rnn/multi_rnn_cell/cell_0/basic_lstm_cell/weights already exists, disallowed. Did you mean to set reuse=True in VarScope? Originally defined at:    File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/contrib/rnn/python/ops/core_rnn_cell_impl.py", line 1044, in _linear     _WEIGHTS_VARIABLE_NAME, [total_arg_size, output_size], dtype=dtype)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/contrib/rnn/python/ops/core_rnn_cell_impl.py", line 241, in __call__     concat = _linear([inputs, h], 4 * self._num_units, True)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/contrib/rnn/python/ops/core_rnn_cell_impl.py", line 713, in __call__     output, new_state = self._cell(inputs, state, scope) |nan|predict_helper.py|75|2019-10-17T06:37:59.973Z
+Base model list is empty|nan|predict_helper.py|75|2019-10-20T08:04:11.458Z
+Filedname(=MAB000A1AC002AF02) not in field_name_mapping|nan|predict_helper.py|114|2019-11-15T02:33:18.522Z
+The update path 'serving_info.' contains an empty field name, which is not allowed.|nan|base_worker.py|80|2019-10-11T09:10:18.170Z
+No columns to parse from file|nan|base_worker.py|80|2019-10-12T02:38:32.048Z
+model_info_not_exist|nan|base_worker.py|80|2019-11-28T11:49:57.194Z
+(500) Reason: Internal Server Error HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json', 'Date': 'Tue, 31 Dec 2019 04:00:54 GMT', 'Content-Length': '245'}) HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"Internal error occurred: resource quota evaluates timeout","reason":"InternalError","details":{"causes":[{"message":"resource quota evaluates timeout"}]},"code":500}  |nan|serving_worker.py|152|2019-12-31T04:00:55.247Z
+Parent directory of hdfs://hadoop.master.orion.lan:8020/autodeep/jobs/air-four##da3db180-f0bb-11e9-9c53-4ad36f4f5861/model/model##air-four##da3db180-f0bb-11e9-9c53-4ad36f4f5861/round_1/air-four doesn't exist, can't save.|nan|train_helper.py|163|2019-10-17T08:55:28.537Z
+Error tokenizing data. C error: out of memory|nan|train_helper.py|440|2020-01-02T11:46:38.962Z
+'Series' object has no attribute 'reshape'|nan|train_helper.py|376|2019-08-01T11:11:34.462Z
+'Series' object has no attribute 'reshape'|nan|train_helper.py|376|2019-08-02T02:26:38.430Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:34:58.574Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:26:06.689Z
+model_info_not_exist|nan|model_manager_main.py|235|2019-11-29T02:36:24.014Z
+model_info_not_exist|nan|base_worker.py|80|2019-11-11T10:18:31.374Z
+mean_squared_error() got an unexpected keyword argument 'logits'|nan|train_helper.py|163|2019-10-19T08:35:57.803Z
+Dimension must be 2 but is 3 for 'rnn_layer01/transpose' (op: 'Transpose') with input shapes: [?,0], [3].|nan|train_helper.py|163|2019-10-23T10:46:22.865Z
+'time'|nan|train_helper.py|163|2019-10-24T09:31:02.100Z
+Error tokenizing data. C error: out of memory|nan|train_helper.py|168|2020-01-02T11:39:48.471Z
+'Series' object has no attribute 'reshape'|nan|base_worker.py|79|2019-08-02T02:26:38.447Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:26:56.685Z
+train_job_not_exist|nan|model_manager_main.py|414|2019-12-02T03:34:45.092Z
+model_info_not_exist|nan|model_manager_main.py|235|2020-01-02T08:14:49.634Z
+Variable rnn/multi_rnn_cell/cell_0/basic_lstm_cell/weights already exists, disallowed. Did you mean to set reuse=True in VarScope? Originally defined at:    File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/contrib/rnn/python/ops/core_rnn_cell_impl.py", line 1044, in _linear     _WEIGHTS_VARIABLE_NAME, [total_arg_size, output_size], dtype=dtype)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/contrib/rnn/python/ops/core_rnn_cell_impl.py", line 241, in __call__     concat = _linear([inputs, h], 4 * self._num_units, True)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/contrib/rnn/python/ops/core_rnn_cell_impl.py", line 713, in __call__     output, new_state = self._cell(inputs, state, scope) |nan|predict_helper.py|75|2019-10-17T06:47:27.346Z
+'time'|nan|predict_helper.py|113|2019-10-18T06:48:43.870Z
+model_info_not_exist|nan|base_worker.py|80|2019-10-11T06:17:14.177Z
+No columns to parse from file|nan|base_worker.py|80|2019-10-12T02:36:10.267Z
+(404) Reason: Not Found HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json', 'Date': 'Thu, 02 Jan 2020 08:01:15 GMT', 'Content-Length': '280'}) HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"deployments.apps \"serving-e08996a0-ymjsadurafdekema9qaksr\" not found","reason":"NotFound","details":{"name":"serving-e08996a0-ymjsadurafdekema9qaksr","group":"apps","kind":"deployments"},"code":404}  |nan|serving_worker.py|185|2020-01-02T08:01:15.589Z
+Dimension must be 2 but is 3 for 'rnn_layer01/transpose' (op: 'Transpose') with input shapes: [?,0], [3].|nan|base_worker.py|80|2019-10-14T09:15:44.936Z
+Found array with 0 sample(s) (shape=(0, 0)) while a minimum of 1 is required.|nan|train_helper.py|163|2019-10-18T03:37:54.344Z
+Error tokenizing data. C error: out of memory|nan|train_helper.py|440|2020-01-02T11:39:48.470Z
+Error tokenizing data. C error: out of memory|nan|train_helper.py|490|2020-01-03T07:25:35.793Z
+'Series' object has no attribute 'reshape'|nan|train_helper.py|423|2019-08-01T11:04:17.557Z
+train_job_not_exist|nan|model_manager_main.py|377|2019-08-01T11:11:30.215Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:35:48.602Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:26:31.689Z
+Attempting to use uninitialized value output/biases 	 [[Node: output/biases/read = Identity[T=DT_FLOAT, _class=["loc:@output/biases"], _device="/job:localhost/replica:0/task:0/cpu:0"](output/biases)]]  Caused by op 'output/biases/read', defined at:   File "/home/liuqw/.pycharm_helpers/pydev/pydevd.py", line 1664, in <module>     main()   File "/home/liuqw/.pycharm_helpers/pydev/pydevd.py", line 1658, in main     globals = debugger.run(setup['file'], None, None, is_module)   File "/home/liuqw/.pycharm_helpers/pydev/pydevd.py", line 1068, in run     pydev_imports.execfile(file, globals, locals)  # execute the script   File "/home/liuqw/.pycharm_helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile     exec(compile(contents+"\n", file, 'exec'), glob, loc)   File "/home/liuqw/workspace/phoenix/main/predict_worker_main.py", line 45, in <module>     main(sys.argv)   File "/home/liuqw/workspace/phoenix/main/predict_worker_main.py", line 41, in main     predict_worker.do_work_loop()   File "/home/liuqw/workspace/phoenix/engine/worker/base_worker.py", line 68, in do_work_loop     job_result = self._do_job_internal(job)   File "/home/liuqw/workspace/phoenix/engine/worker/predict/predict_worker.py", line 47, in _do_job_internal     self.__predict_helper.do_predict_job_loop(model_instance)   File "/home/liuqw/workspace/phoenix/engine/worker/predict/predict_helper.py", line 69, in do_predict_job_loop     next(predict_controller)   File "/home/liuqw/workspace/phoenix/predictor/tensorflow_predictor.py", line 45, in predict     self.__net_output = self._load_model()   File "/home/liuqw/workspace/phoenix/predictor/tensorflow_predictor.py", line 77, in _load_model     self.__feature_ph, self.__model_schema, self.__keep_pro_ph_dict)   File "/home/liuqw/workspace/phoenix/trainer/tensorflow/tf_helper.py", line 597, in create_model     output_layer = layer_creator(TFHelper, pre_output, layer_schema)   File "/home/liuqw/workspace/phoenix/trainer/tensorflow/tf_helper.py", line 137, in create_full_connected_layer     name="biases")   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/ops/variables.py", line 197, in __init__     expected_shape=expected_shape)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/ops/variables.py", line 316, in _init_from_args     self._snapshot = array_ops.identity(self._variable, name="read")   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/ops/gen_array_ops.py", line 1338, in identity     result = _op_def_lib.apply_op("Identity", input=input, name=name)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 768, in apply_op     op_def=op_def)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 2336, in create_op     original_op=self._default_original_op, op_def=op_def)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1228, in __init__     self._traceback = _extract_stack()  FailedPreconditionError (see above for traceback): Attempting to use uninitialized value output/biases 	 [[Node: output/biases/read = Identity[T=DT_FLOAT, _class=["loc:@output/biases"], _device="/job:localhost/replica:0/task:0/cpu:0"](output/biases)]] |nan|predict_helper.py|113|2019-10-17T06:34:02.894Z
+invalid literal for int() with base 10: 'B'|nan|predict_helper.py|113|2019-10-19T10:18:47.669Z
+predictor_is_not_init.|nan|predict_helper.py|113|2019-10-20T08:04:11.467Z
+too many indices for array|nan|predict_helper.py|114|2019-11-11T08:36:23.251Z
+(404) Reason: Not Found HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json', 'Date': 'Fri, 11 Oct 2019 09:49:10 GMT', 'Content-Length': '292'}) HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"deployments.apps \"serving-sv-credit-card-z3thadytunbuod5jccvyrl\" not found","reason":"NotFound","details":{"name":"serving-sv-credit-card-z3thadytunbuod5jccvyrl","group":"apps","kind":"deployments"},"code":404}  |nan|serving_worker.py|200|2019-10-11T09:49:10.225Z
+unknown covert type TYPE_UNKNOWN|nan|base_worker.py|80|2019-10-29T03:45:24.075Z
+'NoneType' object has no attribute 'decode'|nan|base_worker.py|80|2019-10-31T09:52:02.315Z
+Received a label value of 1 which is outside the valid range of [0, 1).  Label values: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 	 [[Node: TYPE_SPARSE_SOFTMAX_XENTROPY/TYPE_SPARSE_SOFTMAX_XENTROPY = SparseSoftmaxCrossEntropyWithLogits[T=DT_FLOAT, Tlabels=DT_INT32, _device="/job:localhost/replica:0/task:0/cpu:0"](dropout/mul, Squeeze)]]  Caused by op 'TYPE_SPARSE_SOFTMAX_XENTROPY/TYPE_SPARSE_SOFTMAX_XENTROPY', defined at:   File "train_worker_main.py", line 50, in <module>     main(sys.argv)   File "train_worker_main.py", line 46, in main     train_worker.do_work_loop()   File "/home/liuqw/workspace/phoenix/engine/worker/base_worker.py", line 68, in do_work_loop     job_result = self._do_job_internal(job)   File "/home/liuqw/workspace/phoenix/engine/worker/train/train_worker.py", line 96, in _do_job_internal     func=train_helper.do_train_job, train_result=train_result_dict)   File "/home/liuqw/workspace/phoenix/base/runtime_watcher.py", line 92, in __call__     sub_process.start()   File "/home/liuqw/.pyenv/versions/3.6.5/lib/python3.6/multiprocessing/process.py", line 105, in start     self._popen = self._Popen(self)   File "/home/liuqw/.pyenv/versions/3.6.5/lib/python3.6/multiprocessing/context.py", line 223, in _Popen     return _default_context.get_context().Process._Popen(process_obj)   File "/home/liuqw/.pyenv/versions/3.6.5/lib/python3.6/multiprocessing/context.py", line 277, in _Popen     return Popen(process_obj)   File "/home/liuqw/.pyenv/versions/3.6.5/lib/python3.6/multiprocessing/popen_fork.py", line 19, in __init__     self._launch(process_obj)   File "/home/liuqw/.pyenv/versions/3.6.5/lib/python3.6/multiprocessing/popen_fork.py", line 73, in _launch     code = process_obj._bootstrap()   File "/home/liuqw/.pyenv/versions/3.6.5/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap     self.run()   File "/home/liuqw/.pyenv/versions/3.6.5/lib/python3.6/multiprocessing/process.py", line 93, in run     self._target(*self._args, **self._kwargs)   File "/home/liuqw/workspace/phoenix/base/runtime_watcher.py", line 79, in __fun_wrapper     ret_val = func(*args, **kwargs)   File "/home/liuqw/workspace/phoenix/engine/worker/train/train_helper.py", line 146, in do_train_job     train_loop_result, split_plan.round_id)   File "/home/liuqw/workspace/phoenix/engine/worker/train/train_helper.py", line 290, in __do_train_loop     next(train_controller)   File "/home/liuqw/workspace/phoenix/trainer/tensorflow/netmodel_trainer.py", line 61, in train     loss = self.__loss(net_output, self.__label_ph)   File "/home/liuqw/workspace/phoenix/trainer/tensorflow/netmodel_trainer.py", line 201, in __loss     label, logits, loss_type, self.__target_type)   File "/home/liuqw/workspace/phoenix/trainer/tensorflow/tf_helper.py", line 360, in calculate_loss     return model_loss_fn(cls, labels, predictions, loss_type)   File "/home/liuqw/workspace/phoenix/trainer/tensorflow/tf_helper.py", line 368, in create_classify_loss     name=LossFunType.Type.Name(loss_type))   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/ops/nn_ops.py", line 1742, in sparse_softmax_cross_entropy_with_logits     precise_logits, labels, name=name)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/ops/gen_nn_ops.py", line 2418, in _sparse_softmax_cross_entropy_with_logits     features=features, labels=labels, name=name)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 768, in apply_op     op_def=op_def)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 2336, in create_op     original_op=self._default_original_op, op_def=op_def)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1228, in __init__     self._traceback = _extract_stack()  InvalidArgumentError (see above for traceback): Received a label value of 1 which is outside the valid range of [0, 1).  Label values: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 	 [[Node: TYPE_SPARSE_SOFTMAX_XENTROPY/TYPE_SPARSE_SOFTMAX_XENTROPY = SparseSoftmaxCrossEntropyWithLogits[T=DT_FLOAT, Tlabels=DT_INT32, _device="/job:localhost/replica:0/task:0/cpu:0"](dropout/mul, Squeeze)]] |nan|train_helper.py|163|2019-10-19T08:50:13.299Z
+b'[18:46:16] src/objective/regression_obj.cc:90: Check failed: (preds.size()) == (info.labels.size()) labels are not correctly providedpreds.size=0, label.size=86'|nan|train_helper.py|163|2019-10-23T10:46:23.148Z
+Error tokenizing data. C error: out of memory|nan|train_helper.py|168|2020-01-02T11:46:38.963Z
+Error tokenizing data. C error: out of memory|nan|train_helper.py|440|2020-01-03T07:25:35.806Z
+train_job_not_exist|nan|model_manager_main.py|414|2019-11-29T02:49:03.563Z
+predictor_is_not_init.|nan|predict_helper.py|113|2019-10-17T06:47:27.350Z
+Attempting to use uninitialized value rnn/multi_rnn_cell/cell_1/basic_lstm_cell/weights 	 [[Node: rnn/multi_rnn_cell/cell_1/basic_lstm_cell/weights/read = Identity[T=DT_FLOAT, _device="/job:localhost/replica:0/task:0/cpu:0"](rnn/multi_rnn_cell/cell_1/basic_lstm_cell/weights)]]  Caused by op 'rnn/multi_rnn_cell/cell_1/basic_lstm_cell/weights/read', defined at:   File "/home/liuqw/.pycharm_helpers/pydev/pydevd.py", line 1664, in <module>     main()   File "/home/liuqw/.pycharm_helpers/pydev/pydevd.py", line 1658, in main     globals = debugger.run(setup['file'], None, None, is_module)   File "/home/liuqw/.pycharm_helpers/pydev/pydevd.py", line 1068, in run     pydev_imports.execfile(file, globals, locals)  # execute the script   File "/home/liuqw/.pycharm_helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile     exec(compile(contents+"\n", file, 'exec'), glob, loc)   File "/home/liuqw/workspace/phoenix/main/predict_worker_main.py", line 45, in <module>     main(sys.argv)   File "/home/liuqw/workspace/phoenix/main/predict_worker_main.py", line 41, in main     predict_worker.do_work_loop()   File "/home/liuqw/workspace/phoenix/engine/worker/base_worker.py", line 68, in do_work_loop     job_result = self._do_job_internal(job)   File "/home/liuqw/workspace/phoenix/engine/worker/predict/predict_worker.py", line 47, in _do_job_internal     self.__predict_helper.do_predict_job_loop(model_instance)   File "/home/liuqw/workspace/phoenix/engine/worker/predict/predict_helper.py", line 69, in do_predict_job_loop     next(predict_controller)   File "/home/liuqw/workspace/phoenix/predictor/tensorflow_predictor.py", line 47, in predict     self.__net_output = self._load_model()   File "/home/liuqw/workspace/phoenix/predictor/tensorflow_predictor.py", line 71, in _load_model     self.__feature_ph, self.__model_schema, self.__keep_pro_ph_dict)   File "/home/liuqw/workspace/phoenix/trainer/tensorflow/tf_helper.py", line 597, in create_model     output_layer = layer_creator(TFHelper, pre_output, layer_schema)   File "/home/liuqw/workspace/phoenix/trainer/tensorflow/tf_helper.py", line 285, in create_rnn_layer     params, dtype=tf.float32)   File "/home/liuqw/workspace/phoenix/trainer/tensorflow/tf_helper.py", line 456, in create_rnn_fun     multi_rnn_cell, input_ph, dtype=dtype, **params)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/ops/rnn.py", line 553, in dynamic_rnn     dtype=dtype)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/ops/rnn.py", line 720, in _dynamic_rnn_loop     swap_memory=swap_memory)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/ops/control_flow_ops.py", line 2623, in while_loop     result = context.BuildLoop(cond, body, loop_vars, shape_invariants)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/ops/control_flow_ops.py", line 2456, in BuildLoop     pred, body, original_loop_vars, loop_vars, shape_invariants)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/ops/control_flow_ops.py", line 2406, in _BuildLoop     body_result = body(*packed_vars_for_body)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/ops/rnn.py", line 705, in _time_step     (output, new_state) = call_cell()   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/ops/rnn.py", line 691, in <lambda>     call_cell = lambda: cell(input_t, state)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/contrib/rnn/python/ops/core_rnn_cell_impl.py", line 953, in __call__     cur_inp, new_state = cell(cur_inp, cur_state)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/contrib/rnn/python/ops/core_rnn_cell_impl.py", line 713, in __call__     output, new_state = self._cell(inputs, state, scope)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/contrib/rnn/python/ops/core_rnn_cell_impl.py", line 241, in __call__     concat = _linear([inputs, h], 4 * self._num_units, True)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/contrib/rnn/python/ops/core_rnn_cell_impl.py", line 1044, in _linear     _WEIGHTS_VARIABLE_NAME, [total_arg_size, output_size], dtype=dtype)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/ops/variable_scope.py", line 1049, in get_variable     use_resource=use_resource, custom_getter=custom_getter)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/ops/variable_scope.py", line 948, in get_variable     use_resource=use_resource, custom_getter=custom_getter)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/ops/variable_scope.py", line 356, in get_variable     validate_shape=validate_shape, use_resource=use_resource)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/ops/variable_scope.py", line 341, in _true_getter     use_resource=use_resource)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/ops/variable_scope.py", line 714, in _get_single_variable     validate_shape=validate_shape)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/ops/variables.py", line 197, in __init__     expected_shape=expected_shape)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/ops/variables.py", line 313, in _init_from_args     self._snapshot = array_ops.identity(self._variable, name="read")   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/ops/gen_array_ops.py", line 1338, in identity     result = _op_def_lib.apply_op("Identity", input=input, name=name)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 768, in apply_op     op_def=op_def)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 2336, in create_op     original_op=self._default_original_op, op_def=op_def)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1228, in __init__     self._traceback = _extract_stack()  FailedPreconditionError (see above for traceback): Attempting to use uninitialized value rnn/multi_rnn_cell/cell_1/basic_lstm_cell/weights 	 [[Node: rnn/multi_rnn_cell/cell_1/basic_lstm_cell/weights/read = Identity[T=DT_FLOAT, _device="/job:localhost/replica:0/task:0/cpu:0"](rnn/multi_rnn_cell/cell_1/basic_lstm_cell/weights)]] |nan|predict_helper.py|113|2019-10-18T04:53:13.888Z
+model_info_not_exist|nan|base_worker.py|80|2019-10-31T10:41:28.307Z
+model_info_not_exist|nan|base_worker.py|80|2019-11-28T09:39:01.519Z
+Dimension must be 2 but is 3 for 'rnn_layer01/transpose' (op: 'Transpose') with input shapes: [?,0], [3].|nan|base_worker.py|80|2019-10-14T09:38:23.607Z
+'time'|nan|base_worker.py|80|2019-10-24T09:31:02.120Z
+Error tokenizing data. C error: out of memory|nan|base_worker.py|80|2020-01-02T11:46:38.974Z
+'Series' object has no attribute 'reshape'|nan|train_helper.py|423|2019-08-01T11:11:34.441Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:38:38.574Z
+predictor_is_not_init.|nan|predict_helper.py|113|2019-10-17T06:45:22.133Z
+model_info_not_exist|nan|base_worker.py|80|2019-11-13T08:59:13.353Z
+(404) Reason: Not Found HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json', 'Date': 'Thu, 02 Jan 2020 08:03:44 GMT', 'Content-Length': '280'}) HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"deployments.apps \"serving-e08996a0-ymjsadurafdekema9qaksr\" not found","reason":"NotFound","details":{"name":"serving-e08996a0-ymjsadurafdekema9qaksr","group":"apps","kind":"deployments"},"code":404}  |nan|serving_worker.py|185|2020-01-02T08:03:44.662Z
+Dimension must be 2 but is 3 for 'rnn_layer01/transpose' (op: 'Transpose') with input shapes: [?,0], [3].|nan|train_helper.py|163|2019-10-14T09:38:23.596Z
+b'[11:37:48] src/objective/regression_obj.cc:90: Check failed: (preds.size()) == (info.labels.size()) labels are not correctly providedpreds.size=0, label.size=79'|nan|train_helper.py|163|2019-10-18T03:37:49.711Z
+Dimension must be 2 but is 3 for 'rnn_layer01/transpose' (op: 'Transpose') with input shapes: [?,12], [3].|nan|train_helper.py|163|2019-10-23T10:48:34.414Z
+'Series' object has no attribute 'reshape'|nan|train_helper.py|376|2019-08-01T11:21:58.255Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:35:58.733Z
+model_info_not_exist|nan|model_manager_main.py|235|2019-11-29T02:49:03.577Z
+(422) Reason: Unprocessable Entity HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json', 'Date': 'Fri, 11 Oct 2019 07:00:58 GMT', 'Transfer-Encoding': 'chunked'}) HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"Deployment.apps \"serving-e3e3306e-18ca-4f4f-8183-70e1abc06e46-qjzvyhlhpxnai6dv9adanm\" is invalid: [metadata.labels: Invalid value: \"serving-e3e3306e-18ca-4f4f-8183-70e1abc06e46-qjzvyhlhpxnai6dv9adanm\": must be no more than 63 characters, spec.selector.matchLabels: Invalid value: \"serving-e3e3306e-18ca-4f4f-8183-70e1abc06e46-qjzvyhlhpxnai6dv9adanm\": must be no more than 63 characters, spec.selector: Invalid value: v1.LabelSelector{MatchLabels:map[string]string{\"id\":\"serving-e3e3306e-18ca-4f4f-8183-70e1abc06e46-qjzvyhlhpxnai6dv9adanm\", \"type\":\"serving\", \"app\":\"serving-e3e3306e-18ca-4f4f-8183-70e1abc06e46-qjzvyhlhpxnai6dv9adanm\"}, MatchExpressions:[]v1.LabelSelectorRequirement(nil)}: invalid label selector]","reason":"Invalid","details":{"name":"serving-e3e3306e-18ca-4f4f-8183-70e1abc06e46-qjzvyhlhpxnai6dv9adanm","group":"apps","kind":"Deployment","causes":[{"reason":"FieldValueInvalid","message":"Invalid value: \"serving-e3e3306e-18ca-4f4f-8183-70e1abc06e46-qjzvyhlhpxnai6dv9adanm\": must be no more than 63 characters","field":"metadata.labels"},{"reason":"FieldValueInvalid","message":"Invalid value: \"serving-e3e3306e-18ca-4f4f-8183-70e1abc06e46-qjzvyhlhpxnai6dv9adanm\": must be no more than 63 characters","field":"metadata.labels"},{"reason":"FieldValueInvalid","message":"Invalid value: \"serving-e3e3306e-18ca-4f4f-8183-70e1abc06e46-qjzvyhlhpxnai6dv9adanm\": must be no more than 63 characters","field":"spec.selector.matchLabels"},{"reason":"FieldValueInvalid","message":"Invalid value: \"serving-e3e3306e-18ca-4f4f-8183-70e1abc06e46-qjzvyhlhpxnai6dv9adanm\": must be no more than 63 characters","field":"spec.selector.matchLabels"},{"reason":"FieldValueInvalid","message":"Invalid value: v1.LabelSelector{MatchLabels:map[string]string{\"id\":\"serving-e3e3306e-18ca-4f4f-8183-70e1abc06e46-qjzvyhlhpxnai6dv9adanm\", \"type\":\"serving\", \"app\":\"serving-e3e3306e-18ca-4f4f-8183-70e1abc06e46-qjzvyhlhpxnai6dv9adanm\"}, MatchExpressions:[]v1.LabelSelectorRequirement(nil)}: invalid label selector","field":"spec.selector"}]},"code":422}  |nan|serving_worker.py|141|2019-10-11T07:00:58.364Z
+mean_squared_error() got an unexpected keyword argument 'logits'|nan|base_worker.py|80|2019-10-19T08:35:57.818Z
+Found array with 0 sample(s) (shape=(0, 0)) while a minimum of 1 is required.|nan|train_helper.py|163|2019-10-23T10:46:23.047Z
+'time'|nan|base_worker.py|80|2019-10-24T09:31:02.136Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:27:06.697Z
+model_info_not_exist|nan|model_manager_main.py|235|2020-01-02T08:18:22.394Z
+No columns to parse from file|nan|base_worker.py|80|2019-10-12T02:43:42.310Z
+model_info_not_exist|nan|base_worker.py|80|2019-10-31T11:16:48.506Z
+model_info_not_exist|nan|base_worker.py|80|2020-01-02T08:14:49.635Z
+No columns to parse from file|nan|train_helper.py|481|2019-10-14T10:15:16.432Z
+Found array with 0 sample(s) (shape=(0, 0)) while a minimum of 1 is required.|nan|base_worker.py|80|2019-10-18T03:37:54.355Z
+Error tokenizing data. C error: out of memory|nan|base_worker.py|80|2020-01-02T11:39:48.521Z
+Error tokenizing data. C error: out of memory|nan|train_helper.py|168|2020-01-03T07:25:35.807Z
+'Series' object has no attribute 'reshape'|nan|train_helper.py|376|2019-08-01T11:04:17.573Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:36:43.561Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:26:51.684Z
+The update path 'serving_info.' contains an empty field name, which is not allowed.|nan|base_worker.py|80|2019-10-11T09:22:41.586Z
+loss() missing 1 required positional argument: 'label'|nan|base_worker.py|80|2019-10-23T10:54:05.888Z
+'Series' object has no attribute 'reshape'|nan|base_worker.py|79|2019-08-01T11:11:34.477Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:26:46.711Z
+train_job_not_exist|nan|model_manager_main.py|414|2019-11-29T02:57:12.376Z
+(404) Reason: Not Found HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json', 'Date': 'Fri, 11 Oct 2019 09:47:11 GMT', 'Content-Length': '292'}) HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"deployments.apps \"serving-sv-credit-card-z3thadytunbuod5jccvyrl\" not found","reason":"NotFound","details":{"name":"serving-sv-credit-card-z3thadytunbuod5jccvyrl","group":"apps","kind":"deployments"},"code":404}  |nan|serving_worker.py|200|2019-10-11T09:47:12.053Z
+cannot reshape array of size 0 into shape (12,0)|nan|train_helper.py|163|2019-10-18T03:37:59.406Z
+loss() missing 1 required positional argument: 'label'|nan|train_helper.py|163|2019-10-23T10:54:05.860Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:38:58.536Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:26:26.691Z
+model_info_not_exist|nan|model_manager_main.py|235|2019-11-29T02:45:40.184Z
+'Graph' object has no attribute 'close'|nan|predict_helper.py|113|2019-10-16T07:08:44.529Z
+delete k8s deployment failed, empty k8s deployment name|nan|serving_worker.py|173|2019-10-11T09:22:41.584Z
+model_info_not_exist|nan|base_worker.py|80|2019-11-13T09:13:54.885Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:36:53.603Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:27:51.687Z
+model_info_not_exist|nan|model_manager_main.py|235|2019-11-29T02:29:22.652Z
+model_info_not_exist|nan|base_worker.py|80|2019-10-31T10:50:50.879Z
+float division by zero|nan|base_worker.py|80|2019-10-23T10:46:22.759Z
+Error tokenizing data. C error: out of memory|nan|train_helper.py|491|2020-01-02T11:46:38.946Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:27:36.695Z
+'list' object has no attribute 'shape'|nan|base_worker.py|80|2019-10-12T02:46:19.261Z
+(404) Reason: Not Found HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json', 'Date': 'Thu, 02 Jan 2020 08:28:02 GMT', 'Content-Length': '280'}) HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"deployments.apps \"serving-c26a7b6a-jbjxfycegr4h4ncfyjcmpr\" not found","reason":"NotFound","details":{"name":"serving-c26a7b6a-jbjxfycegr4h4ncfyjcmpr","group":"apps","kind":"deployments"},"code":404}  |nan|serving_worker.py|185|2020-01-02T08:28:02.199Z
+No columns to parse from file|nan|base_worker.py|80|2019-10-14T10:15:16.452Z
+float division by zero|nan|train_helper.py|163|2019-10-23T10:46:22.746Z
+Error tokenizing data. C error: out of memory|nan|base_worker.py|80|2020-01-03T07:25:35.838Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:35:43.561Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:27:31.694Z
+'Graph' object has no attribute 'close'|nan|predict_helper.py|113|2019-10-16T07:13:23.027Z
+delete k8s deployment failed, empty k8s deployment name|nan|serving_worker.py|173|2019-10-11T09:02:53.472Z
+'Series' object has no attribute 'reshape'|nan|base_worker.py|79|2019-08-01T11:21:58.272Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:28:06.689Z
+train_job_not_exist|nan|model_manager_main.py|414|2019-11-29T02:57:46.776Z
+'time'|nan|predict_helper.py|113|2019-10-19T11:52:45.623Z
+(404) Reason: Not Found HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json', 'Date': 'Fri, 11 Oct 2019 10:12:46 GMT', 'Content-Length': '280'}) HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"deployments.apps \"serving-df2e5e7b-dtychrerytcbvsfc5aqd2p\" not found","reason":"NotFound","details":{"name":"serving-df2e5e7b-dtychrerytcbvsfc5aqd2p","group":"apps","kind":"deployments"},"code":404}  |nan|serving_worker.py|173|2019-10-11T10:12:46.689Z
+model_info_not_exist|nan|base_worker.py|80|2019-11-13T09:02:48.227Z
+(404) Reason: Not Found HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json', 'Date': 'Thu, 02 Jan 2020 08:42:45 GMT', 'Content-Length': '280'}) HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"deployments.apps \"serving-c26a7b6a-jbjxfycegr4h4ncfyjcmpr\" not found","reason":"NotFound","details":{"name":"serving-c26a7b6a-jbjxfycegr4h4ncfyjcmpr","group":"apps","kind":"deployments"},"code":404}  |nan|serving_worker.py|185|2020-01-02T08:42:45.386Z
+cannot reshape array of size 0 into shape (12,0)|nan|base_worker.py|80|2019-10-18T03:37:59.420Z
+'Series' object has no attribute 'reshape'|nan|train_helper.py|423|2019-08-01T11:21:58.232Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:35:33.578Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:26:41.691Z
+model_info_not_exist|nan|model_manager_main.py|235|2019-11-29T02:32:29.988Z
+No columns to parse from file|nan|train_helper.py|432|2019-10-14T10:15:16.442Z
+Dimension must be 2 but is 3 for 'rnn_layer01/transpose' (op: 'Transpose') with input shapes: [?,12], [3].|nan|base_worker.py|80|2019-10-23T10:48:34.441Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:37:58.553Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:26:21.706Z
+train_job_not_exist|nan|model_manager_main.py|414|2019-11-29T02:49:55.127Z
+The update path 'serving_info.' contains an empty field name, which is not allowed.|nan|base_worker.py|80|2019-10-11T09:02:53.554Z
+No columns to parse from file|nan|train_helper.py|163|2019-10-14T10:15:16.443Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:27:16.693Z
+model_info_not_exist|nan|model_manager_main.py|235|2019-11-29T02:44:46.407Z
+(404) Reason: Not Found HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json', 'Date': 'Thu, 02 Jan 2020 08:29:40 GMT', 'Content-Length': '280'}) HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"deployments.apps \"serving-c26a7b6a-jbjxfycegr4h4ncfyjcmpr\" not found","reason":"NotFound","details":{"name":"serving-c26a7b6a-jbjxfycegr4h4ncfyjcmpr","group":"apps","kind":"deployments"},"code":404}  |nan|serving_worker.py|185|2020-01-02T08:29:40.490Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:37:23.616Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:26:01.751Z
+train_job_not_exist|nan|model_manager_main.py|414|2019-11-29T02:33:36.896Z
+delete k8s deployment failed, empty k8s deployment name|nan|serving_worker.py|173|2019-10-11T09:29:01.623Z
+'NoneType' object has no attribute 'decode'|nan|base_worker.py|80|2019-10-17T08:27:55.824Z
+'Series' object has no attribute 'reshape'|nan|base_worker.py|79|2019-08-01T11:30:09.984Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:27:01.694Z
+train_job_not_exist|nan|model_manager_main.py|414|2019-11-29T02:32:29.977Z
+delete k8s deployment failed, empty k8s deployment name|nan|serving_worker.py|173|2019-10-11T09:54:12.185Z
+(404) Reason: Not Found HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json', 'Date': 'Thu, 02 Jan 2020 08:43:13 GMT', 'Content-Length': '280'}) HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"deployments.apps \"serving-c26a7b6a-jbjxfycegr4h4ncfyjcmpr\" not found","reason":"NotFound","details":{"name":"serving-c26a7b6a-jbjxfycegr4h4ncfyjcmpr","group":"apps","kind":"deployments"},"code":404}  |nan|serving_worker.py|185|2020-01-02T08:43:13.082Z
+Parent directory of hdfs://hadoop.master.orion.lan:8020/autodeep/jobs/air-passenger-three##3bfee340-f0bb-11e9-9c53-4ad36f4f5861/model/model##air-passenger-three##3bfee340-f0bb-11e9-9c53-4ad36f4f5861/round_1/air-passenger-three doesn't exist, can't save.|nan|base_worker.py|80|2019-10-17T08:51:02.705Z
+float division by zero|nan|base_worker.py|80|2019-10-18T03:38:04.086Z
+'Series' object has no attribute 'reshape'|nan|train_helper.py|376|2019-08-01T11:30:09.967Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:39:08.540Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:26:11.694Z
+model_info_not_exist|nan|model_manager_main.py|235|2019-11-29T02:37:08.560Z
+Dimension must be 2 but is 3 for 'rnn_layer01/transpose' (op: 'Transpose') with input shapes: [?,0], [3].|nan|base_worker.py|80|2019-10-23T10:46:22.880Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:36:18.576Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:27:41.698Z
+train_job_not_exist|nan|model_manager_main.py|414|2019-11-29T02:52:57.212Z
+The update path 'serving_info.' contains an empty field name, which is not allowed.|nan|base_worker.py|80|2019-10-11T09:29:01.624Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:27:11.689Z
+model_info_not_exist|nan|model_manager_main.py|235|2019-11-29T02:46:22.118Z
+'Graph' object has no attribute 'close'|nan|predict_helper.py|113|2019-10-15T09:23:15.903Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:36:13.562Z
+model_info_not_exist|nan|model_manager_main.py|235|2019-11-15T02:25:09.798Z
+model_info_not_exist|nan|model_manager_main.py|235|2019-11-29T02:33:36.905Z
+train_job_not_exist|nan|model_manager_main.py|414|2019-11-29T02:36:27.573Z
+delete k8s deployment failed, empty k8s deployment name|nan|serving_worker.py|173|2019-10-11T09:10:18.169Z
+b'[18:46:16] src/objective/regression_obj.cc:90: Check failed: (preds.size()) == (info.labels.size()) labels are not correctly providedpreds.size=0, label.size=86'|nan|base_worker.py|80|2019-10-23T10:46:23.172Z
+'Series' object has no attribute 'reshape'|nan|train_helper.py|423|2019-08-01T11:30:09.946Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:38:33.575Z
+model_info_not_exist|nan|model_manager_main.py|235|2019-11-29T02:36:27.587Z
+model_info_not_exist|nan|base_worker.py|80|2020-01-02T08:18:22.394Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:38:08.547Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:27:21.692Z
+train_job_not_exist|nan|model_manager_main.py|414|2019-11-29T02:53:33.782Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:27:26.692Z
+train_job_not_exist|nan|model_manager_main.py|414|2019-11-29T02:46:22.109Z
+The update path 'serving_info.' contains an empty field name, which is not allowed.|nan|base_worker.py|80|2019-10-11T09:54:12.187Z
+loss() missing 1 required positional argument: 'label'|nan|train_helper.py|163|2019-10-23T10:54:06.112Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:36:28.650Z
+model_info_not_exist|nan|model_manager_main.py|235|2019-11-29T02:49:55.139Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:35:18.579Z
+(404) Reason: Not Found HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json', 'Date': 'Thu, 02 Jan 2020 08:44:03 GMT', 'Content-Length': '280'}) HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"deployments.apps \"serving-c26a7b6a-jbjxfycegr4h4ncfyjcmpr\" not found","reason":"NotFound","details":{"name":"serving-c26a7b6a-jbjxfycegr4h4ncfyjcmpr","group":"apps","kind":"deployments"},"code":404}  |nan|serving_worker.py|185|2020-01-02T08:44:03.798Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:35:28.581Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:28:11.701Z
+train_job_not_exist|nan|model_manager_main.py|414|2019-11-29T02:33:38.532Z
+predictor_is_not_init.|nan|predict_helper.py|113|2019-10-17T06:37:59.977Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:26:16.698Z
+Found array with 0 sample(s) (shape=(0, 0)) while a minimum of 1 is required.|nan|base_worker.py|80|2019-10-23T10:46:23.062Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:36:08.543Z
+model_info_not_exist|nan|model_manager_main.py|235|2019-11-29T02:28:53.528Z
+mean_squared_error() got an unexpected keyword argument 'logits'|nan|train_helper.py|163|2019-10-19T08:48:12.471Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:35:23.550Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:37:08.626Z
+train_job_not_exist|nan|model_manager_main.py|414|2019-11-29T02:36:37.658Z
+reader registry has no entry for: TYPE_UNKNOWN|nan|base_worker.py|80|2019-10-11T10:24:03.290Z
+float division by zero|nan|train_helper.py|163|2019-10-18T03:38:04.073Z
+loss() missing 1 required positional argument: 'label'|nan|base_worker.py|80|2019-10-23T10:48:33.947Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:36:03.543Z
+model_info_not_exist|nan|model_manager_main.py|235|2019-11-29T02:33:38.539Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:40:13.553Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:38:13.538Z
+train_job_not_exist|nan|model_manager_main.py|414|2019-11-29T02:28:53.443Z
+[Errno 2] No such file or directory: 'hdfs': 'hdfs'|nan|base_worker.py|80|2019-10-11T11:48:40.799Z
+model_info_not_exist|nan|model_manager_main.py|235|2019-11-29T02:36:37.669Z
+Dimension must be 2 but is 3 for 'rnn_layer01/transpose' (op: 'Transpose') with input shapes: [?,76], [3].|nan|base_worker.py|80|2019-10-17T09:29:24.258Z
+No columns to parse from file|nan|base_worker.py|80|2019-10-11T11:50:21.184Z
+train_job_not_exist|nan|model_manager_main.py|414|2019-11-29T02:44:46.398Z
+Filedname(=MAB000A1AC002AF02) not in field_name_mapping|nan|predict_helper.py|114|2019-11-15T02:32:53.013Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:42:48.552Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:40:58.545Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:29:06.708Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:37:38.575Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:28:01.695Z
+train_job_not_exist|nan|model_manager_main.py|414|2019-11-29T02:45:40.178Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:28:41.687Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:42:58.552Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:27:56.692Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:38:43.535Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:28:16.687Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:32:06.690Z
+loss() missing 1 required positional argument: 'label'|nan|train_helper.py|163|2019-10-23T10:48:33.923Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:37:53.550Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:28:51.699Z
+train_job_not_exist|nan|model_manager_main.py|414|2019-11-29T02:36:24.007Z
+[Errno 2] No such file or directory: 'hdfs': 'hdfs'|nan|base_worker.py|80|2019-10-11T10:33:30.893Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:28:36.695Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:42:18.545Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:32:51.711Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:39:03.540Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:39:48.543Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:32:26.689Z
+train_job_not_exist|nan|model_manager_main.py|414|2019-11-29T02:37:08.549Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:28:56.699Z
+[Errno 2] No such file or directory: 'hdfs': 'hdfs'|nan|base_worker.py|80|2019-10-11T10:55:23.400Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:41:53.561Z
+predict_result_info_not_exist|nan|model_manager_main.py|322|2019-11-15T02:32:01.688Z
+The Session graph is empty.  Add operations to the graph before calling run().|nan|predict_helper.py|113|2019-10-17T07:08:44.471Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:39:38.534Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:32:41.681Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:37:48.557Z
+Attempting to use uninitialized value output/biases 	 [[Node: output/biases/read = Identity[T=DT_FLOAT, _class=["loc:@output/biases"], _device="/job:localhost/replica:0/task:0/cpu:0"](output/biases)]]  Caused by op 'output/biases/read', defined at:   File "/home/liuqw/.pycharm_helpers/pydev/pydevd.py", line 1664, in <module>     main()   File "/home/liuqw/.pycharm_helpers/pydev/pydevd.py", line 1658, in main     globals = debugger.run(setup['file'], None, None, is_module)   File "/home/liuqw/.pycharm_helpers/pydev/pydevd.py", line 1068, in run     pydev_imports.execfile(file, globals, locals)  # execute the script   File "/home/liuqw/.pycharm_helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile     exec(compile(contents+"\n", file, 'exec'), glob, loc)   File "/home/liuqw/workspace/phoenix/main/predict_worker_main.py", line 45, in <module>     main(sys.argv)   File "/home/liuqw/workspace/phoenix/main/predict_worker_main.py", line 41, in main     predict_worker.do_work_loop()   File "/home/liuqw/workspace/phoenix/engine/worker/base_worker.py", line 68, in do_work_loop     job_result = self._do_job_internal(job)   File "/home/liuqw/workspace/phoenix/engine/worker/predict/predict_worker.py", line 47, in _do_job_internal     self.__predict_helper.do_predict_job_loop(model_instance)   File "/home/liuqw/workspace/phoenix/engine/worker/predict/predict_helper.py", line 69, in do_predict_job_loop     next(predict_controller)   File "/home/liuqw/workspace/phoenix/predictor/tensorflow_predictor.py", line 46, in predict     self.__net_output = self._load_model()   File "/home/liuqw/workspace/phoenix/predictor/tensorflow_predictor.py", line 80, in _load_model     self.__feature_ph, self.__model_schema, self.__keep_pro_ph_dict)   File "/home/liuqw/workspace/phoenix/trainer/tensorflow/tf_helper.py", line 597, in create_model     output_layer = layer_creator(TFHelper, pre_output, layer_schema)   File "/home/liuqw/workspace/phoenix/trainer/tensorflow/tf_helper.py", line 137, in create_full_connected_layer     name="biases")   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/ops/variables.py", line 197, in __init__     expected_shape=expected_shape)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/ops/variables.py", line 316, in _init_from_args     self._snapshot = array_ops.identity(self._variable, name="read")   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/ops/gen_array_ops.py", line 1338, in identity     result = _op_def_lib.apply_op("Identity", input=input, name=name)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 768, in apply_op     op_def=op_def)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 2336, in create_op     original_op=self._default_original_op, op_def=op_def)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1228, in __init__     self._traceback = _extract_stack()  FailedPreconditionError (see above for traceback): Attempting to use uninitialized value output/biases 	 [[Node: output/biases/read = Identity[T=DT_FLOAT, _class=["loc:@output/biases"], _device="/job:localhost/replica:0/task:0/cpu:0"](output/biases)]] |nan|predict_helper.py|113|2019-10-17T07:24:29.094Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:39:58.533Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:32:21.701Z
+train_job_not_exist|nan|model_manager_main.py|414|2019-11-29T02:29:22.643Z
+Parent directory of hdfs://hadoop.master.orion.lan:8020/autodeep/jobs/air-three##9223c664-f0bb-11e9-9c53-4ad36f4f5861/model/model##air-three##9223c664-f0bb-11e9-9c53-4ad36f4f5861/round_1/air-three doesn't exist, can't save.|nan|train_helper.py|163|2019-10-17T08:53:27.172Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:28:21.694Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:43:03.542Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:40:08.542Z
+The Session graph is empty.  Add operations to the graph before calling run().|nan|predict_helper.py|75|2019-10-17T07:06:15.088Z
+'time'|nan|train_helper.py|163|2019-10-23T11:10:22.957Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:35:38.557Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:37:28.540Z
+Parent directory of hdfs://hadoop.master.orion.lan:8020/autodeep/jobs/air-three##9223c664-f0bb-11e9-9c53-4ad36f4f5861/model/model##air-three##9223c664-f0bb-11e9-9c53-4ad36f4f5861/round_1/air-three doesn't exist, can't save.|nan|base_worker.py|80|2019-10-17T08:53:27.185Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:28:31.699Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:41:38.547Z
+[Errno 2] No such file or directory: 'hdfs': 'hdfs'|nan|train_helper.py|481|2019-10-17T08:49:08.034Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:38:18.549Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:29:01.692Z
+[Errno 2] No such file or directory: 'hdfs': 'hdfs'|nan|train_helper.py|163|2019-10-17T08:49:08.046Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:36:23.612Z
+Parent directory of hdfs://hadoop.master.orion.lan:8020/autodeep/jobs/air-four##da3db180-f0bb-11e9-9c53-4ad36f4f5861/model/model##air-four##da3db180-f0bb-11e9-9c53-4ad36f4f5861/round_1/air-four doesn't exist, can't save.|nan|base_worker.py|80|2019-10-17T08:55:28.551Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:41:08.540Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:28:46.697Z
+Variable rnn/multi_rnn_cell/cell_0/basic_lstm_cell/weights already exists, disallowed. Did you mean to set reuse=True in VarScope? Originally defined at:    File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/contrib/rnn/python/ops/core_rnn_cell_impl.py", line 1044, in _linear     _WEIGHTS_VARIABLE_NAME, [total_arg_size, output_size], dtype=dtype)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/contrib/rnn/python/ops/core_rnn_cell_impl.py", line 241, in __call__     concat = _linear([inputs, h], 4 * self._num_units, True)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/contrib/rnn/python/ops/core_rnn_cell_impl.py", line 713, in __call__     output, new_state = self._cell(inputs, state, scope) |nan|predict_helper.py|75|2019-10-17T06:59:05.628Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:43:13.543Z
+[Errno 2] No such file or directory: 'hdfs': 'hdfs'|nan|train_helper.py|432|2019-10-17T08:49:08.045Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:40:33.547Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:32:36.687Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:36:39.005Z
+'time'|nan|train_helper.py|163|2019-10-23T11:10:25.743Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:41:33.563Z
+train_job_not_exist|nan|model_manager_main.py|414|2019-11-29T02:56:28.039Z
+('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))|nan|train_helper.py|163|2019-10-23T11:10:07.602Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:28:26.690Z
+predictor_is_not_init.|nan|predict_helper.py|113|2019-10-17T06:59:05.632Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:42:03.561Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:41:18.539Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:32:46.685Z
+Parent directory of hdfs://hadoop.master.orion.lan:8020/autodeep/jobs/air-passenger-three##3bfee340-f0bb-11e9-9c53-4ad36f4f5861/model/model##air-passenger-three##3bfee340-f0bb-11e9-9c53-4ad36f4f5861/round_1/air-passenger-three doesn't exist, can't save.|nan|train_helper.py|163|2019-10-17T08:51:02.690Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:35:08.682Z
+('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))|nan|base_worker.py|80|2019-10-23T11:10:07.625Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:42:13.566Z
+'time'|nan|train_helper.py|163|2019-10-23T11:47:23.342Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:42:08.553Z
+('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))|nan|train_helper.py|163|2019-10-23T11:10:06.711Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:40:03.541Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:36:33.930Z
+('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))|nan|base_worker.py|80|2019-10-23T11:10:06.727Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:39:28.541Z
+'time'|nan|base_worker.py|80|2019-10-23T11:47:18.670Z
+'Graph' object has no attribute 'close'|nan|predict_helper.py|75|2019-10-17T07:08:12.052Z
+loss() missing 1 required positional argument: 'label'|nan|base_worker.py|80|2019-10-23T10:54:06.164Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:44:48.609Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:41:58.672Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:38:28.555Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:34:06.680Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:43:43.533Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:33:36.722Z
+'Graph' object has no attribute 'close'|nan|predict_helper.py|113|2019-10-17T07:25:15.242Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:32:56.687Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:44:53.674Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:33:16.742Z
+'time'|nan|train_helper.py|163|2019-10-23T11:10:23.693Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:43:48.558Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:35:13.548Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:33:41.698Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:44:58.525Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:33:51.683Z
+predictor_is_not_init.|nan|predict_helper.py|113|2019-10-17T07:08:12.056Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:32:11.683Z
+predictor_is_not_init.|nan|predict_helper.py|113|2019-10-17T07:06:15.093Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:45:53.537Z
+predict_result_info_not_exist|nan|model_manager_main.py|322|2019-11-15T02:33:16.817Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:43:53.559Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:37:13.609Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:42:53.541Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:32:51.688Z
+'time'|nan|predict_helper.py|114|2019-11-15T07:51:16.792Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:32:16.678Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:45:08.530Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:33:46.769Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:43:58.608Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:34:26.679Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:39:53.602Z
+Solver newton-cg supports only l2 penalties, got l1 penalty.|nan|base_worker.py|80|2019-10-15T03:51:41.883Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:46:08.529Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:33:01.677Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:32:31.686Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:33:31.684Z
+Solver newton-cg supports only l2 penalties, got l1 penalty.|nan|base_worker.py|80|2019-10-15T03:51:49.893Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:43:08.549Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:38:48.564Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:44:08.546Z
+'time'|nan|base_worker.py|80|2019-10-23T11:10:23.757Z
+Dimension must be 2 but is 3 for 'rnn_layer01/transpose' (op: 'Transpose') with input shapes: [?,61], [3].|nan|train_helper.py|163|2019-10-17T11:38:50.424Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:34:11.680Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:43:28.544Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:33:11.680Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:40:43.548Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:44:33.590Z
+[Errno 2] No such file or directory: 'hdfs': 'hdfs'|nan|base_worker.py|80|2019-10-17T08:49:08.058Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:35:53.554Z
+Solver newton-cg supports only l2 penalties, got l1 penalty.|nan|train_helper.py|163|2019-10-15T03:51:41.815Z
+Dimension must be 2 but is 3 for 'rnn_layer01/transpose' (op: 'Transpose') with input shapes: [?,61], [3].|nan|base_worker.py|80|2019-10-17T11:38:50.445Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:33:26.833Z
+Solver newton-cg supports only l2 penalties, got l1 penalty.|nan|train_helper.py|163|2019-10-15T03:51:49.863Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:44:23.562Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:34:16.825Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:40:53.548Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:44:13.536Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:36:48.620Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:41:28.544Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:38:53.536Z
+Parent directory of hdfs://hadoop.master.orion.lan:8020/autodeep/jobs/air-three##ad40b392-f0c2-11e9-9c53-4ad36f4f5861/model/model##air-three##ad40b392-f0c2-11e9-9c53-4ad36f4f5861/round_1/air-three doesn't exist, can't save.|nan|train_helper.py|163|2019-10-17T09:44:19.284Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:45:43.535Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:37:43.569Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:44:18.533Z
+Parent directory of hdfs://hadoop.master.orion.lan:8020/autodeep/jobs/air-three##ad40b392-f0c2-11e9-9c53-4ad36f4f5861/model/model##air-three##ad40b392-f0c2-11e9-9c53-4ad36f4f5861/round_1/air-three doesn't exist, can't save.|nan|base_worker.py|80|2019-10-17T09:44:19.298Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:40:48.533Z
+Attempting to use uninitialized value fc_layer02/biases 	 [[Node: fc_layer02/biases/read = Identity[T=DT_FLOAT, _class=["loc:@fc_layer02/biases"], _device="/job:localhost/replica:0/task:0/cpu:0"](fc_layer02/biases)]]  Caused by op 'fc_layer02/biases/read', defined at:   File "/home/liuqw/.pycharm_helpers/pydev/pydevd.py", line 1664, in <module>     main()   File "/home/liuqw/.pycharm_helpers/pydev/pydevd.py", line 1658, in main     globals = debugger.run(setup['file'], None, None, is_module)   File "/home/liuqw/.pycharm_helpers/pydev/pydevd.py", line 1068, in run     pydev_imports.execfile(file, globals, locals)  # execute the script   File "/home/liuqw/.pycharm_helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile     exec(compile(contents+"\n", file, 'exec'), glob, loc)   File "/home/liuqw/workspace/phoenix/main/predict_worker_main.py", line 45, in <module>     main(sys.argv)   File "/home/liuqw/workspace/phoenix/main/predict_worker_main.py", line 41, in main     predict_worker.do_work_loop()   File "/home/liuqw/workspace/phoenix/engine/worker/base_worker.py", line 68, in do_work_loop     job_result = self._do_job_internal(job)   File "/home/liuqw/workspace/phoenix/engine/worker/predict/predict_worker.py", line 47, in _do_job_internal     self.__predict_helper.do_predict_job_loop(model_instance)   File "/home/liuqw/workspace/phoenix/engine/worker/predict/predict_helper.py", line 69, in do_predict_job_loop     next(predict_controller)   File "/home/liuqw/workspace/phoenix/predictor/tensorflow_predictor.py", line 46, in predict     self.__net_output = self._load_model()   File "/home/liuqw/workspace/phoenix/predictor/tensorflow_predictor.py", line 79, in _load_model     self.__feature_ph, self.__model_schema, self.__keep_pro_ph_dict)   File "/home/liuqw/workspace/phoenix/trainer/tensorflow/tf_helper.py", line 597, in create_model     output_layer = layer_creator(TFHelper, pre_output, layer_schema)   File "/home/liuqw/workspace/phoenix/trainer/tensorflow/tf_helper.py", line 137, in create_full_connected_layer     name="biases")   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/ops/variables.py", line 197, in __init__     expected_shape=expected_shape)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/ops/variables.py", line 316, in _init_from_args     self._snapshot = array_ops.identity(self._variable, name="read")   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/ops/gen_array_ops.py", line 1338, in identity     result = _op_def_lib.apply_op("Identity", input=input, name=name)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 768, in apply_op     op_def=op_def)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 2336, in create_op     original_op=self._default_original_op, op_def=op_def)   File "/home/liuqw/.pyenv/versions/env_phoenix/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1228, in __init__     self._traceback = _extract_stack()  FailedPreconditionError (see above for traceback): Attempting to use uninitialized value fc_layer02/biases 	 [[Node: fc_layer02/biases/read = Identity[T=DT_FLOAT, _class=["loc:@fc_layer02/biases"], _device="/job:localhost/replica:0/task:0/cpu:0"](fc_layer02/biases)]] |nan|predict_helper.py|113|2019-10-17T09:31:07.644Z
+'time'|nan|train_helper.py|163|2019-10-23T11:47:20.847Z
+Dimension must be 2 but is 3 for 'rnn_layer01/transpose' (op: 'Transpose') with input shapes: [?,61], [3].|nan|train_helper.py|163|2019-10-17T11:50:12.724Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:34:53.554Z
+'time'|nan|base_worker.py|80|2019-10-23T11:10:23.004Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:41:43.547Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:45:01.679Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:34:41.677Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:37:33.604Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:35:11.712Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:44:43.536Z
+Dimension must be 2 but is 3 for 'rnn_layer01/transpose' (op: 'Transpose') with input shapes: [?,61], [3].|nan|train_helper.py|163|2019-10-17T11:45:10.461Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:40:23.540Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:46:46.674Z
+Dimension must be 2 but is 3 for 'rnn_layer01/transpose' (op: 'Transpose') with input shapes: [?,61], [3].|nan|base_worker.py|80|2019-10-17T11:45:10.483Z
+'time'|nan|base_worker.py|80|2019-10-23T11:55:35.378Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:34:01.707Z
+'time'|nan|train_helper.py|163|2019-10-23T11:47:25.975Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:37:03.565Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:34:54.029Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:45:11.665Z
+Dimension must be 2 but is 3 for 'rnn_layer01/transpose' (op: 'Transpose') with input shapes: [?,76], [3].|nan|train_helper.py|163|2019-10-17T09:29:24.238Z
+'time'|nan|base_worker.py|80|2019-10-23T11:55:30.222Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:41:23.541Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:45:06.704Z
+Solver newton-cg supports only l2 penalties, got l1 penalty.|nan|base_worker.py|80|2019-10-15T03:52:00.723Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:34:46.683Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:35:03.545Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:33:06.694Z
+'time'|nan|train_helper.py|163|2019-10-23T11:55:32.784Z
+Dimension must be 2 but is 3 for 'rnn_layer01/transpose' (op: 'Transpose') with input shapes: [?,61], [3].|nan|base_worker.py|80|2019-10-17T11:50:12.748Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:41:48.537Z
+Solver newton-cg supports only l2 penalties, got l1 penalty.|nan|train_helper.py|163|2019-10-15T03:52:00.683Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:44:56.698Z
+'time'|nan|train_helper.py|163|2019-10-23T11:55:37.926Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:37:18.613Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:34:21.691Z
+'time'|nan|train_helper.py|163|2019-10-23T11:55:35.357Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:45:26.664Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:35:07.299Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:44:03.543Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:45:16.675Z
+'time'|nan|base_worker.py|80|2019-10-23T11:55:37.952Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:33:56.681Z
+'time'|nan|train_helper.py|163|2019-10-23T11:10:25.843Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:45:21.671Z
+'time'|nan|train_helper.py|163|2019-10-23T11:47:18.652Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:45:48.531Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:33:21.710Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:34:36.677Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:46:18.542Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:39:43.553Z
+'time'|nan|base_worker.py|80|2019-10-23T11:47:23.359Z
+'time'|nan|base_worker.py|80|2019-10-23T11:47:20.866Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:43:23.559Z
+mean_squared_error() got an unexpected keyword argument 'logits'|nan|base_worker.py|80|2019-10-19T08:48:12.488Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:39:13.628Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:34:56.684Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:46:23.553Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:39:18.548Z
+func |do_train_job| call timeout.|nan|base_worker.py|80|2019-10-23T15:03:09.580Z
+'time'|nan|train_helper.py|163|2019-10-23T11:55:30.202Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:34:31.716Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:44:38.537Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:48:01.663Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:45:56.665Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:38:03.564Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:46:41.680Z
+'time'|nan|base_worker.py|80|2019-10-23T11:47:25.996Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:45:31.666Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:45:03.591Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:47:11.671Z
+nan|nan|base_worker.py|80|2019-10-19T08:50:13.336Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:46:06.667Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:38:23.547Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:47:31.660Z
+'time'|nan|base_worker.py|80|2019-10-23T11:10:25.784Z
+'time'|nan|base_worker.py|80|2019-10-23T11:55:32.809Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:42:23.560Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:46:56.678Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:39:23.543Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:47:01.662Z
+'time'|nan|base_worker.py|80|2019-10-23T11:10:25.906Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:45:51.665Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:46:28.539Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:46:01.694Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:39:33.571Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:47:36.663Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:46:11.667Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:46:33.562Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:45:36.665Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:40:18.547Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:45:46.665Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:45:41.670Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:40:28.539Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:46:36.662Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:46:51.670Z
+could not convert string to float: 'W'|nan|train_helper.py|481|2019-10-15T05:06:39.826Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:46:21.666Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:42:43.536Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:46:31.670Z
+could not convert string to float: 'W'|nan|base_worker.py|80|2019-10-15T05:06:39.841Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:43:33.562Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:47:06.670Z
+could not convert string to float: 'W'|nan|train_helper.py|432|2019-10-15T05:06:40.150Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:42:33.562Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:47:21.674Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:50:26.696Z
+could not convert string to float: 'W'|nan|train_helper.py|481|2019-10-15T05:06:44.054Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:48:36.674Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:41:03.534Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:47:26.659Z
+could not convert string to float: 'W'|nan|train_helper.py|163|2019-10-15T05:06:44.077Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:48:51.671Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:42:38.552Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:48:26.673Z
+could not convert string to float: 'W'|nan|train_helper.py|481|2019-10-15T05:06:39.808Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:46:16.665Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:50:31.675Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:49:36.675Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:40:38.541Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:48:46.685Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:48:56.662Z
+could not convert string to float: 'W'|nan|train_helper.py|163|2019-10-15T05:06:39.821Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:46:26.685Z
+could not convert string to float: 'W'|nan|train_helper.py|481|2019-10-15T05:06:52.388Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:50:36.673Z
+could not convert string to float: 'W'|nan|train_helper.py|432|2019-10-15T05:06:46.486Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:47:41.661Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:41:13.556Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:47:16.658Z
+could not convert string to float: 'W'|nan|train_helper.py|432|2019-10-15T05:06:39.885Z
+could not convert string to float: 'W'|nan|base_worker.py|80|2019-10-15T05:06:48.778Z
+could not convert string to float: 'W'|nan|base_worker.py|80|2019-10-15T05:06:40.044Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:42:28.573Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:49:01.668Z
+could not convert string to float: 'W'|nan|train_helper.py|432|2019-10-15T05:06:44.076Z
+could not convert string to float: 'W'|nan|train_helper.py|163|2019-10-15T05:06:52.404Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:49:46.672Z
+could not convert string to float: 'W'|nan|train_helper.py|481|2019-10-15T05:06:46.641Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:43:18.561Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:48:41.665Z
+could not convert string to float: 'W'|nan|train_helper.py|481|2019-10-15T05:06:46.696Z
+could not convert string to float: 'W'|nan|train_helper.py|481|2019-10-15T05:06:54.165Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:45:58.536Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:47:56.659Z
+could not convert string to float: 'W'|nan|base_worker.py|80|2019-10-15T05:06:40.167Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:50:06.671Z
+could not convert string to float: 'W'|nan|train_helper.py|163|2019-10-15T05:06:53.435Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:49:41.660Z
+could not convert string to float: 'W'|nan|train_helper.py|163|2019-10-15T05:06:50.690Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:45:38.522Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:47:46.676Z
+could not convert string to float: 'W'|nan|train_helper.py|432|2019-10-15T05:06:46.657Z
+could not convert string to float: 'W'|nan|train_helper.py|163|2019-10-15T05:06:39.839Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:50:41.683Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:45:28.529Z
+could not convert string to float: 'W'|nan|base_worker.py|80|2019-10-15T05:06:46.839Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:50:01.663Z
+could not convert string to float: 'W'|nan|train_helper.py|163|2019-10-15T05:06:48.734Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:50:51.677Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:45:33.551Z
+could not convert string to float: 'W'|nan|base_worker.py|80|2019-10-15T05:06:46.769Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:49:56.665Z
+could not convert string to float: 'W'|nan|train_helper.py|481|2019-10-15T05:06:39.875Z
+could not convert string to float: 'W'|nan|base_worker.py|80|2019-10-15T05:06:49.060Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:43:38.546Z
+could not convert string to float: 'W'|nan|base_worker.py|80|2019-10-15T05:06:44.162Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:48:31.670Z
+could not convert string to float: 'W'|nan|train_helper.py|432|2019-10-15T05:06:46.712Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:50:41.662Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:44:28.587Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:49:16.665Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:49:06.666Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:47:51.658Z
+could not convert string to float: 'W'|nan|train_helper.py|163|2019-10-15T05:06:46.713Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:50:11.673Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:45:13.533Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:49:26.678Z
+could not convert string to float: 'W'|nan|train_helper.py|163|2019-10-15T05:06:46.487Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:51:56.672Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:50:21.669Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:45:18.558Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:50:21.695Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:50:56.663Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:50:51.703Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:45:23.529Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:50:16.671Z
+could not convert string to float: 'W'|nan|train_helper.py|163|2019-10-15T05:06:46.658Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:52:06.663Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:50:56.680Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:46:13.536Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:49:51.715Z
+could not convert string to float: 'W'|nan|train_helper.py|481|2019-10-15T05:06:56.437Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:51:06.696Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:50:31.705Z
+train_result_not_exist|nan|model_manager_main.py|237|2019-08-02T03:46:03.548Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:49:21.658Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:51:16.669Z
+could not convert string to float: 'W'|nan|base_worker.py|80|2019-10-15T05:06:51.270Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:51:11.687Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:49:11.666Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:51:41.656Z
+could not convert string to float: 'W'|nan|base_worker.py|80|2019-10-15T05:06:53.460Z
+could not convert string to float: 'W'|nan|train_helper.py|481|2019-10-15T05:06:40.079Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:49:31.666Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:51:16.691Z
+could not convert string to float: 'W'|nan|train_helper.py|163|2019-10-15T05:06:48.964Z
+could not convert string to float: 'W'|nan|train_helper.py|481|2019-10-15T05:07:03.433Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:51:51.670Z
+could not convert string to float: 'W'|nan|train_helper.py|432|2019-10-15T05:06:40.093Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:50:26.668Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:51:21.687Z
+could not convert string to float: 'W'|nan|train_helper.py|163|2019-10-15T05:07:03.453Z
+could not convert string to float: 'W'|nan|train_helper.py|163|2019-10-15T05:06:40.094Z
+Solver liblinear does not support a multinomial backend.|nan|base_worker.py|80|2019-11-29T08:45:15.103Z
+could not convert string to float: 'W'|nan|train_helper.py|481|2019-10-15T05:06:55.566Z
+could not convert string to float: 'W'|nan|train_helper.py|481|2019-10-15T05:06:59.055Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:51:46.666Z
+could not convert string to float: 'W'|nan|train_helper.py|432|2019-10-15T05:06:43.960Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:51:21.667Z
+could not convert string to float: 'W'|nan|train_helper.py|163|2019-10-15T05:06:55.589Z
+could not convert string to float: 'W'|nan|train_helper.py|163|2019-10-15T05:06:59.114Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:51:26.668Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:51:36.679Z
+could not convert string to float: 'W'|nan|train_helper.py|432|2019-10-15T05:06:39.838Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:51:06.667Z
+could not convert string to float: 'W'|nan|train_helper.py|481|2019-10-15T05:06:59.094Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:54:11.665Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:51:31.673Z
+could not convert string to float: 'W'|nan|train_helper.py|481|2019-10-15T05:06:51.160Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:50:36.698Z
+could not convert string to float: 'W'|nan|train_helper.py|432|2019-10-15T05:06:39.821Z
+could not convert string to float: 'W'|nan|train_helper.py|432|2019-10-15T05:06:52.403Z
+could not convert string to float: 'W'|nan|train_helper.py|432|2019-10-15T05:06:59.110Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:54:46.672Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:51:36.707Z
+could not convert string to float: 'W'|nan|train_helper.py|432|2019-10-15T05:06:53.434Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:51:31.695Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:51:11.664Z
+could not convert string to float: 'W'|nan|train_helper.py|163|2019-10-15T05:06:51.190Z
+could not convert string to float: 'W'|nan|train_helper.py|432|2019-10-15T05:06:59.120Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:54:51.668Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:51:01.798Z
+could not convert string to float: 'W'|nan|base_worker.py|80|2019-10-15T05:07:03.516Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:54:31.671Z
+could not convert string to float: 'W'|nan|train_helper.py|481|2019-10-15T05:06:48.896Z
+could not convert string to float: 'W'|nan|train_helper.py|481|2019-10-15T05:06:40.138Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:50:46.666Z
+could not convert string to float: 'W'|nan|train_helper.py|163|2019-10-15T05:06:54.242Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:52:11.668Z
+could not convert string to float: 'W'|nan|base_worker.py|80|2019-10-15T05:07:02.040Z
+could not convert string to float: 'W'|nan|train_helper.py|481|2019-10-15T05:06:50.651Z
+could not convert string to float: 'W'|nan|train_helper.py|481|2019-10-15T05:06:43.943Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:50:46.692Z
+'PredictResultInfoRequest' object has no attribute 'serving_id'|nan|model_manager_main.py|461|2019-10-11T07:06:21.575Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:55:21.666Z
+could not convert string to float: 'W'|nan|base_worker.py|80|2019-10-15T05:06:55.697Z
+could not convert string to float: 'W'|nan|train_helper.py|432|2019-10-15T05:06:50.689Z
+could not convert string to float: 'W'|nan|train_helper.py|163|2019-10-15T05:06:40.151Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:51:01.819Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:54:36.661Z
+could not convert string to float: 'W'|nan|base_worker.py|80|2019-10-15T05:06:54.325Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:51:26.690Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:51:46.689Z
+could not convert string to float: 'W'|nan|train_helper.py|163|2019-10-15T05:06:56.466Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:52:16.670Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:51:51.691Z
+could not convert string to float: 'W'|nan|train_helper.py|163|2019-10-15T05:06:43.961Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:54:26.670Z
+could not convert string to float: 'W'|nan|base_worker.py|80|2019-10-15T05:06:56.978Z
+could not convert string to float: 'W'|nan|base_worker.py|80|2019-10-15T05:06:59.300Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:54:21.666Z
+could not convert string to float: 'W'|nan|train_helper.py|432|2019-10-15T05:07:01.940Z
+could not convert string to float: 'W'|nan|base_worker.py|80|2019-10-15T05:06:52.481Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:54:06.671Z
+could not convert string to float: 'W'|nan|base_worker.py|80|2019-10-15T05:06:46.506Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:55:36.667Z
+could not convert string to float: 'W'|nan|train_helper.py|163|2019-10-15T05:06:39.886Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:51:56.697Z
+could not convert string to float: 'W'|nan|base_worker.py|80|2019-10-15T05:06:50.733Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:52:16.689Z
+could not convert string to float: 'W'|nan|base_worker.py|80|2019-10-15T05:06:39.863Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:52:01.677Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:55:31.662Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:52:06.683Z
+could not convert string to float: 'W'|nan|train_helper.py|432|2019-10-15T05:07:03.452Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:52:11.691Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:52:01.697Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:54:16.672Z
+could not convert string to float: 'W'|nan|train_helper.py|432|2019-10-15T05:06:54.237Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:55:41.691Z
+could not convert string to float: 'W'|nan|train_helper.py|481|2019-10-15T05:06:46.468Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:51:41.684Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:55:06.670Z
+could not convert string to float: 'W'|nan|train_helper.py|481|2019-10-15T05:07:05.922Z
+could not convert string to float: 'W'|nan|train_helper.py|432|2019-10-15T05:06:48.962Z
+could not convert string to float: 'W'|nan|train_helper.py|481|2019-10-15T05:07:01.904Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:55:51.674Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:55:01.661Z
+could not convert string to float: 'W'|nan|train_helper.py|481|2019-10-15T05:07:01.947Z
+model_info_not_exist|nan|model_manager_main.py|235|2019-10-11T06:17:14.176Z
+could not convert string to float: 'W'|nan|train_helper.py|432|2019-10-15T05:07:05.948Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:56:06.691Z
+could not convert string to float: 'W'|nan|train_helper.py|481|2019-10-15T05:06:48.696Z
+Solver lbfgs supports only l2 penalties, got l1 penalty.|nan|train_helper.py|168|2019-11-29T08:45:36.446Z
+could not convert string to float: 'W'|nan|train_helper.py|432|2019-10-15T05:07:01.989Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:55:46.670Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:56:01.805Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:55:56.708Z
+could not convert string to float: 'W'|nan|train_helper.py|432|2019-10-15T05:06:48.723Z
+could not convert string to float: 'W'|nan|train_helper.py|163|2019-10-15T05:07:01.990Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:55:31.688Z
+could not convert string to float: 'W'|nan|train_helper.py|432|2019-10-15T05:06:51.189Z
+could not convert string to float: 'W'|nan|train_helper.py|163|2019-10-15T05:06:59.122Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:56:01.740Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:55:16.662Z
+Solver liblinear does not support a multinomial backend.|nan|train_helper.py|168|2019-11-29T08:45:15.049Z
+'PredictResultInfoRequest' object has no attribute 'serving_id'|nan|model_manager_main.py|461|2019-10-11T07:07:27.430Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:56:11.667Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:55:36.690Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:54:41.668Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:56:31.664Z
+could not convert string to float: 'W'|nan|train_helper.py|481|2019-10-15T05:06:53.421Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:54:56.660Z
+could not convert string to float: 'W'|nan|base_worker.py|80|2019-10-15T05:06:59.184Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:55:11.712Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:56:36.666Z
+could not convert string to float: 'W'|nan|train_helper.py|432|2019-10-15T05:06:55.585Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:56:21.694Z
+Solver lbfgs supports only l2 penalties, got l1 penalty.|nan|base_worker.py|80|2019-11-29T08:45:36.466Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:55:41.667Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:56:41.697Z
+could not convert string to float: 'W'|nan|train_helper.py|432|2019-10-15T05:06:56.462Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:55:56.675Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:55:46.693Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:56:46.712Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:55:26.669Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:55:51.700Z
+could not convert string to float: 'W'|nan|base_worker.py|80|2019-10-15T05:06:40.236Z
+could not convert string to float: 'W'|nan|base_worker.py|80|2019-10-15T05:06:43.987Z
+could not convert string to float: 'W'|nan|train_helper.py|163|2019-10-15T05:07:01.946Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:56:36.690Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:57:06.679Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:57:46.666Z
+could not convert string to float: 'W'|nan|train_helper.py|163|2019-10-15T05:07:05.949Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:56:26.663Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:56:06.669Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:57:31.680Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:56:56.676Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:57:31.718Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:56:26.688Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:57:01.685Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:57:06.659Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:56:56.709Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:57:56.661Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:57:21.694Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:57:11.657Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:56:16.667Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:57:01.660Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:58:11.659Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:57:11.677Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:56:41.668Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:56:16.688Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:58:11.680Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:56:51.691Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:56:11.689Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:56:21.671Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:58:21.659Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:56:31.691Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:56:51.665Z
+could not convert string to float: 'W'|nan|base_worker.py|80|2019-10-15T05:07:05.969Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:56:46.674Z
+could not convert string to float: 'W'|nan|base_worker.py|80|2019-10-15T05:07:01.979Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:58:51.663Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:57:56.691Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:58:06.697Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:02:51.662Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:58:01.669Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:59:06.664Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:57:46.690Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:03:06.660Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:57:36.688Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:57:51.662Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:59:26.706Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:57:41.666Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:58:36.663Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:57:16.704Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:58:56.663Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:57:21.672Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:57:26.668Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:57:36.661Z
+Solver liblinear does not support a multinomial backend.|nan|train_helper.py|168|2019-11-29T09:57:21.991Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:58:31.681Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:58:01.692Z
+Solver liblinear does not support a multinomial backend.|nan|base_worker.py|80|2019-11-29T09:57:22.010Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:58:06.671Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:57:16.672Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:57:26.694Z
+All sub learning schema start failed|nan|base_worker.py|80|2019-10-15T07:43:03.663Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:58:26.664Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:57:41.688Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:57:51.683Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:58:41.661Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:58:46.666Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:58:16.692Z
+Solver sag supports only l2 penalties, got l1 penalty.|nan|base_worker.py|80|2019-11-29T09:57:44.071Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:02:41.664Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:04:11.668Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:02:26.669Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:03:51.666Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:03:31.658Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:02:31.670Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:03:01.673Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:03:11.661Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:02:36.680Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:03:21.671Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:03:41.657Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:59:01.662Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:59:11.667Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:03:36.666Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:02:56.662Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:03:46.663Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:59:16.664Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:59:31.680Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:02:46.657Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:03:16.658Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T02:59:21.677Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:03:56.687Z
+Solver sag supports only l2 penalties, got l1 penalty.|nan|train_helper.py|168|2019-11-29T09:57:44.050Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:03:51.689Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:04:51.664Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:03:56.665Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:04:31.684Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:04:31.662Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:04:41.673Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:04:21.683Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:04:11.687Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:04:01.694Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:04:36.661Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:04:16.664Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:04:06.659Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:05:21.665Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:04:46.697Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:03:26.676Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:04:01.671Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:04:06.687Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:04:26.676Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:04:21.659Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:04:46.662Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:04:16.688Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:05:16.670Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:04:26.700Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:04:56.659Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:03:46.684Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:05:26.688Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:04:41.697Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:04:36.686Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:05:06.685Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:05:31.686Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:05:01.691Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:05:11.698Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:06:06.675Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:05:06.663Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:05:41.674Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:05:21.693Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:05:46.664Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:06:11.693Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:05:31.663Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:05:01.668Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:05:56.684Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:05:56.658Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:06:16.938Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:05:36.666Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:04:56.682Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:05:26.710Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:04:51.689Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:05:36.689Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:05:11.657Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:05:41.702Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:05:51.691Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:05:51.665Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:05:16.695Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:07:26.684Z
+Solver liblinear does not support a multinomial backend.|nan|base_worker.py|80|2019-11-29T09:58:53.483Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:06:21.669Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:06:21.687Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:07:31.661Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:06:01.688Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:07:21.680Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:07:36.662Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:05:46.683Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:07:51.665Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:07:16.667Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:06:01.665Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:07:46.658Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:06:36.664Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:07:36.690Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:07:11.660Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:06:11.665Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:08:01.670Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:06:56.662Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:07:41.664Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:06:16.961Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:06:51.661Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:08:36.677Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:06:31.655Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:06:26.685Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:08:41.657Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:06:06.702Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:06:46.664Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:06:41.663Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:07:01.655Z
+Solver liblinear does not support a multinomial backend.|nan|train_helper.py|168|2019-11-29T09:58:53.454Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:07:51.685Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:07:31.694Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:07:41.687Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:07:46.679Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:08:26.661Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:08:46.665Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:08:06.667Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:09:21.657Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:09:06.658Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:07:21.703Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:09:16.693Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:07:56.685Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:07:06.666Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:07:56.718Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:07:26.660Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:08:16.658Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:09:26.656Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:09:31.650Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:10:21.659Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:09:46.654Z
+The update path 'serving_info.' contains an empty field name, which is not allowed.|nan|model_manager_main.py|432|2019-10-11T09:02:53.545Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:09:56.665Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:08:11.662Z
+serving_info_not_exist|nan|model_manager_main.py|461|2019-10-11T09:11:57.618Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:09:36.654Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:10:11.664Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:09:01.666Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:08:56.648Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:10:26.662Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:10:36.650Z
+The update path 'serving_info.' contains an empty field name, which is not allowed.|nan|model_manager_main.py|432|2019-10-11T09:10:18.170Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:10:01.655Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:10:06.658Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:24:56.639Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:09:51.668Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:08:51.659Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:08:21.660Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:25:01.630Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:24:51.627Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:09:41.659Z
+serving_info_not_exist|nan|model_manager_main.py|461|2019-10-11T09:11:33.755Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:08:31.658Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:25:16.634Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:26:41.655Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:09:11.656Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:10:16.660Z
+predict_result_info_not_exist|nan|model_manager_main.py|322|2019-11-15T03:24:46.651Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:25:51.629Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:25:21.635Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:26:01.632Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:26:16.625Z
+The update path 'serving_info.' contains an empty field name, which is not allowed.|nan|model_manager_main.py|432|2019-10-11T09:22:41.586Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:27:41.629Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:25:56.623Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:10:41.653Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:25:11.636Z
+The update path 'serving_info.' contains an empty field name, which is not allowed.|nan|model_manager_main.py|432|2019-10-11T09:29:01.624Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:27:56.622Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:25:41.640Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:26:31.619Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:27:06.636Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:26:06.632Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:10:31.654Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:26:11.625Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:27:01.629Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:25:36.641Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:25:06.631Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:25:26.641Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:27:46.623Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:25:31.657Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:26:56.627Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:26:36.638Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:25:46.649Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:26:46.629Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:26:26.674Z
+The update path 'serving_info.' contains an empty field name, which is not allowed.|nan|model_manager_main.py|432|2019-10-11T09:54:12.187Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:27:16.628Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:26:51.632Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:27:21.623Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:26:21.629Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:27:26.627Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:27:51.626Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:27:36.659Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:27:31.758Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-15T03:27:11.629Z
+predict_result_info_not_exist|nan|model_manager_main.py|322|2019-11-15T07:51:12.408Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-11T08:36:22.569Z
+model_info_not_exist|nan|model_manager_main.py|235|2019-10-16T07:55:52.474Z
+model_info_not_exist|nan|model_manager_main.py|235|2019-11-28T09:39:01.449Z
+trainer registry has no entry for: NAME_UNKNOWN|nan|train_helper.py|163|2019-10-15T07:20:28.475Z
+model_info_not_exist|nan|model_manager_main.py|235|2019-11-28T09:39:03.655Z
+trainer registry has no entry for: NAME_UNKNOWN|nan|train_helper.py|163|2019-10-15T08:14:37.583Z
+trainer registry has no entry for: NAME_UNKNOWN|nan|base_worker.py|80|2019-10-15T08:14:37.611Z
+trainer registry has no entry for: NAME_UNKNOWN|nan|train_helper.py|163|2019-10-15T08:19:28.450Z
+trainer registry has no entry for: NAME_UNKNOWN|nan|base_worker.py|80|2019-10-15T08:19:28.479Z
+trainer registry has no entry for: NAME_UNKNOWN|nan|base_worker.py|80|2019-10-15T07:20:28.500Z
+trainer registry has no entry for: NAME_UNKNOWN|nan|train_helper.py|163|2019-10-15T09:39:36.608Z
+trainer registry has no entry for: NAME_UNKNOWN|nan|base_worker.py|80|2019-10-15T09:39:36.641Z
+''|nan|base_worker.py|80|2019-10-19T13:02:08.822Z
+model_info_not_exist|nan|model_manager_main.py|235|2019-11-11T10:18:31.372Z
+''|nan|train_helper.py|163|2019-10-19T13:02:08.809Z
+train_job_not_exist|nan|model_manager_main.py|408|2019-11-11T10:30:49.916Z
+model_info_not_exist|nan|model_manager_main.py|235|2019-11-13T08:59:13.350Z
+model_info_not_exist|nan|model_manager_main.py|235|2019-11-13T09:02:50.506Z
+model_info_not_exist|nan|model_manager_main.py|235|2019-11-13T09:13:57.063Z
+model_info_not_exist|nan|model_manager_main.py|235|2019-11-13T09:02:48.227Z
+model_info_not_exist|nan|model_manager_main.py|235|2019-11-13T09:13:54.884Z
+job_progress: 0.5  has type JobProgress, but expected one of: int, long, float|nan|model_manager_main.py|380|2019-11-14T10:40:36.144Z
+division by zero|nan|model_manager_main.py|351|2019-10-15T07:20:27.519Z
+model_info_not_exist|nan|model_manager_main.py|235|2019-11-28T11:49:57.193Z
+division by zero|nan|model_manager_main.py|351|2019-10-15T08:19:27.088Z
+division by zero|nan|model_manager_main.py|351|2019-10-15T08:14:37.068Z
+model_info_not_exist|nan|model_manager_main.py|235|2019-10-31T10:41:28.306Z
+model_info_not_exist|nan|model_manager_main.py|235|2019-10-31T10:41:30.520Z
+model_info_not_exist|nan|model_manager_main.py|235|2019-10-31T11:16:48.504Z
+model_info_not_exist|nan|model_manager_main.py|235|2019-10-31T10:50:50.878Z
+model_info_not_exist|nan|model_manager_main.py|235|2019-10-31T10:50:53.033Z

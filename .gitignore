@@ -11,7 +11,6 @@ z_temp
 smac_t/smac3-output_*
 free_test*
 *.pkl
-*.csv
 *.tar
 *.tar.*
 ft.ipynb
